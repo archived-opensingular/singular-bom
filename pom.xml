@@ -379,6 +379,17 @@
 
             <dependency>
                 <groupId>org.jasig.cas</groupId>
+                <artifactId>cas-server-core</artifactId>
+                <version>${cas.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.jasig.cas</groupId>
+                <artifactId>cas-server-support-ldap</artifactId>
+            </dependency>
+
+            <dependency>
+                <groupId>org.jasig.cas</groupId>
                 <artifactId>cas-server-webapp</artifactId>
                 <version>${cas.version}</version>
                 <type>war</type>
@@ -709,6 +720,12 @@
             <dependency>
                 <groupId>org.springframework</groupId>
                 <artifactId>spring-context-support</artifactId>
+                <version>${spring.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.springframework</groupId>
+                <artifactId>spring-beans</artifactId>
                 <version>${spring.version}</version>
             </dependency>
 
