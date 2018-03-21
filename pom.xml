@@ -428,6 +428,59 @@
 
             <dependency>
                 <groupId>org.opensingular</groupId>
+                <artifactId>crud-sample</artifactId>
+                <version>${singular.version}</version>
+                <type>war</type>
+            </dependency>
+
+            <dependency>
+                <groupId>org.opensingular</groupId>
+                <artifactId>docgen-app</artifactId>
+                <version>${singular.version}</version>
+                <type>war</type>
+            </dependency>
+
+            <dependency>
+                <groupId>org.opensingular</groupId>
+                <artifactId>docgen-static-resources</artifactId>
+                <version>${singular.version}</version>
+                <type>war</type>
+            </dependency>
+
+            <dependency>
+                <groupId>org.opensingular</groupId>
+                <artifactId>requirement-sample-app</artifactId>
+                <version>${singular.version}</version>
+                <type>war</type>
+            </dependency>
+
+            <dependency>
+                <groupId>org.opensingular</groupId>
+                <artifactId>requirement-sample-static-resources</artifactId>
+                <version>${singular.version}</version>
+                <type>war</type>
+            </dependency>
+
+            <dependency>
+                <groupId>org.opensingular</groupId>
+                <artifactId>requirement-sei-30-connector</artifactId>
+                <version>${singular.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.opensingular</groupId>
+                <artifactId>requirement-sei-30-extensao-singular</artifactId>
+                <version>${singular.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.opensingular</groupId>
+                <artifactId>requirement-sip-30-connector</artifactId>
+                <version>${singular.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.opensingular</groupId>
                 <artifactId>singular-app-commons</artifactId>
                 <version>${singular.version}</version>
             </dependency>
@@ -451,8 +504,27 @@
             </dependency>
 
             <dependency>
+                <groupId>com.opensingular</groupId>
+                <artifactId>singular-enterprise-connector</artifactId>
+                <version>${singular.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.opensingular</groupId>
+                <artifactId>singular-enterprise-module</artifactId>
+                <version>${singular.version}</version>
+                <type>war</type>
+            </dependency>
+
+            <dependency>
                 <groupId>org.opensingular</groupId>
                 <artifactId>singular-flow-core</artifactId>
+                <version>${singular.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.opensingular</groupId>
+                <artifactId>singular-flow-form</artifactId>
                 <version>${singular.version}</version>
             </dependency>
 
@@ -524,6 +596,20 @@
 
             <dependency>
                 <groupId>org.opensingular</groupId>
+                <artifactId>singular-sso-analysis</artifactId>
+                <version>${singular.version}</version>
+                <type>war</type>
+            </dependency>
+
+            <dependency>
+                <groupId>org.opensingular</groupId>
+                <artifactId>singular-sso-requirement</artifactId>
+                <version>${singular.version}</version>
+                <type>war</type>
+            </dependency>
+
+            <dependency>
+                <groupId>org.opensingular</groupId>
                 <artifactId>singular-studio-base-app</artifactId>
                 <version>${singular.version}</version>
             </dependency>
@@ -549,6 +635,13 @@
 
             <dependency>
                 <groupId>org.opensingular</groupId>
+                <artifactId>singular-ui-showcase</artifactId>
+                <version>${singular.version}</version>
+                <type>war</type>
+            </dependency>
+
+            <dependency>
+                <groupId>org.opensingular</groupId>
                 <artifactId>singular-wicket-utils</artifactId>
                 <version>${singular.version}</version>
             </dependency>
@@ -557,6 +650,20 @@
                 <groupId>org.opensingular</groupId>
                 <artifactId>singular-wkhtmltopdf-client</artifactId>
                 <version>${singular.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.opensingular</groupId>
+                <artifactId>singular-wkhtmltopdf-ws</artifactId>
+                <version>${singular.version}</version>
+                <type>war</type>
+            </dependency>
+
+            <dependency>
+                <groupId>org.opensingular</groupId>
+                <artifactId>studio-sample</artifactId>
+                <version>${singular.version}</version>
+                <type>war</type>
             </dependency>
 
             <dependency>
