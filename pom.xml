@@ -108,7 +108,6 @@
                 <groupId>commons-codec</groupId>
                 <artifactId>commons-codec</artifactId>
                 <version>1.10</version>
-                <optional>true</optional>
             </dependency>
 
             <dependency>
