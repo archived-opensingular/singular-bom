@@ -7,7 +7,7 @@
     <groupId>org.opensingular</groupId>
     <artifactId>bom</artifactId>
 
-    <version>1.7.1-RC1</version>
+    <version>1.7.1-SNAPSHOT</version>
     <name>[singular-bom]</name>
     <description>Singular Bom</description>
     <url>http://opensingular.org</url>
@@ -940,7 +940,7 @@
         <wicket.version>7.3.0</wicket.version>
         <hibernate.version>4.3.11.Final</hibernate.version>
         <slf4j.version>1.7.12</slf4j.version>
-        <singular.version>1.7.1-RC1</singular.version>
+        <singular.version>1.7.1-SNAPSHOT</singular.version>
         <cas.version>4.0.4</cas.version>
         <cas.client.version>3.4.1</cas.client.version>
         <jackson.version>2.7.3</jackson.version>
