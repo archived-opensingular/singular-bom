@@ -3,6 +3,7 @@ image: maven:latest
 variables:
   MAVEN_CLI_OPTS: "--batch-mode"
   MAVEN_OPTS: "-Dmaven.repo.local=.m2/repository"
+  GPG_TTY: "$(tty)"
 
 cache:
   paths:
@@ -22,7 +23,5 @@ test:
 deploy:
   stage: deploy
   script:
-  - GPG_TTY=$(tty)
-  - export GPG_TTY
   - gpg --batch --yes --passphrase $GPG_PASS -v --import <(echo "$GPG_PRIVATE_KEY")
   - mvn $MAVEN_CLI_OPTS clean package install -Dmaven.test.skip=true  org.sonatype.plugins:nexus-staging-maven-plugin:deploy  -Prelease -Dgpg.passphrase=$GPG_PASS
