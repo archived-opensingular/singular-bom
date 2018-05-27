@@ -19,3 +19,7 @@ test:
   script:
     - mvn $MAVEN_CLI_OPTS test
 
+deploy:
+  stage: deploy
+  script:
+  - mvn $MAVEN_CLI_OPTS clean package install -Dmaven.test.skip=true  org.sonatype.plugins:nexus-staging-maven-plugin:deploy  -Prelease
