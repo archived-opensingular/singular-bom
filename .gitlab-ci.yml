@@ -22,5 +22,6 @@ test:
 deploy:
   stage: deploy
   script:
-  - gpg -v --import <(echo "$GPG_PRIVATE_KEY")
+  - apt-get update -qq && apt-get -yqq install gnupg2
+  - gpg2 -v --import <(echo "$GPG_PRIVATE_KEY")
   - mvn $MAVEN_CLI_OPTS clean package install -Dmaven.test.skip=true  org.sonatype.plugins:nexus-staging-maven-plugin:deploy  -Prelease -Dgpg.passphrase=$GPG_PASS
