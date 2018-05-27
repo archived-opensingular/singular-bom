@@ -22,4 +22,5 @@ test:
 deploy:
   stage: deploy
   script:
-  - mvn $MAVEN_CLI_OPTS clean package install -Dmaven.test.skip=true  org.sonatype.plugins:nexus-staging-maven-plugin:deploy  -Prelease
+  - gpg -v --import <(echo "$GPG_PRIVATE_KEY")
+  - mvn $MAVEN_CLI_OPTS clean package install -Dmaven.test.skip=true  org.sonatype.plugins:nexus-staging-maven-plugin:deploy  -Prelease -Dgpg.passphrase=$GPG_PASS
