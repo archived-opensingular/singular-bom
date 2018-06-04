@@ -132,6 +132,12 @@
             </dependency>
 
             <dependency>
+                <groupId>com.sun.org.apache</groupId>
+                <artifactId>jaxp-ri</artifactId>
+                <version>1.4</version>
+            </dependency>
+
+            <dependency>
                 <groupId>com.yworks.yfiles</groupId>
                 <artifactId>yfiles</artifactId>
                 <version>3.1.0.1</version>
@@ -176,6 +182,10 @@
                         <groupId>org.slf4j</groupId>
                         <artifactId>slf4j-api</artifactId>
                     </exclusion>
+                    <exclusion>
+                        <groupId>org.projectlombok</groupId>
+                        <artifactId>lombok</artifactId>
+                    </exclusion>
                 </exclusions>
             </dependency>
 
@@ -210,10 +220,41 @@
             </dependency>
 
             <dependency>
+                <groupId>javax.activation</groupId>
+                <artifactId>activation</artifactId>
+                <version>1.1.1</version>
+            </dependency>
+
+            <dependency>
+                <groupId>javax.annotation</groupId>
+                <artifactId>javax.annotation-api</artifactId>
+                <version>1.3.2</version>
+            </dependency>
+
+            <dependency>
                 <groupId>javax.validation</groupId>
                 <artifactId>validation-api</artifactId>
                 <version>1.1.0.Final</version>
             </dependency>
+
+            <dependency>
+                <groupId>javax.jws</groupId>
+                <artifactId>jsr181-api</artifactId>
+                <version>1.0-MR1</version>
+            </dependency>
+
+            <dependency>
+                <groupId>javax.xml.bind</groupId>
+                <artifactId>jaxb-api</artifactId>
+                <version>2.3.0</version>
+            </dependency>
+
+            <dependency>
+                <groupId>javax.xml.ws</groupId>
+                <artifactId>jaxws-api</artifactId>
+                <version>2.3.0</version>
+            </dependency>
+
 
             <dependency>
                 <groupId>joda-time</groupId>
@@ -622,12 +663,6 @@
 
             <dependency>
                 <groupId>org.opensingular</groupId>
-                <artifactId>singular-requirement-core</artifactId>
-                <version>${singular.version}</version>
-            </dependency>
-
-            <dependency>
-                <groupId>org.opensingular</groupId>
                 <artifactId>singular-requirement-module</artifactId>
                 <version>${singular.version}</version>
             </dependency>
@@ -965,6 +1000,7 @@
         <hamcrest.version>1.3</hamcrest.version>
         <project.scm.url>https://github.com/opensingular/singular-bom.git</project.scm.url>
         <project.scm.connection>scm:git:https://github.com/opensingular/singular-bom.git</project.scm.connection>
-        <project.scm.developerConnection>scm:git:git@github.com:opensingular/singular-bom.git</project.scm.developerConnection>
+        <project.scm.developerConnection>scm:git:git@github.com:opensingular/singular-bom.git
+        </project.scm.developerConnection>
     </properties>
 </project>
