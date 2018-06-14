@@ -566,6 +566,12 @@
 
             <dependency>
                 <groupId>org.opensingular</groupId>
+                <artifactId>requirement-sei-30-features-lib</artifactId>
+                <version>${singular.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.opensingular</groupId>
                 <artifactId>requirement-sip-30-connector</artifactId>
                 <version>${singular.version}</version>
             </dependency>
