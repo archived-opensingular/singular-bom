@@ -671,12 +671,6 @@
 
             <dependency>
                 <groupId>org.opensingular</groupId>
-                <artifactId>singular-requirement-single-app</artifactId>
-                <version>${singular.version}</version>
-            </dependency>
-
-            <dependency>
-                <groupId>org.opensingular</groupId>
                 <artifactId>singular-requirement-studio-app</artifactId>
                 <version>${singular.version}</version>
             </dependency>
