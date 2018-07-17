@@ -657,13 +657,7 @@
 
             <dependency>
                 <groupId>org.opensingular</groupId>
-                <artifactId>singular-requirement-commons</artifactId>
-                <version>${singular.version}</version>
-            </dependency>
-
-            <dependency>
-                <groupId>org.opensingular</groupId>
-                <artifactId>singular-requirement-commons-test</artifactId>
+                <artifactId>singular-requirement-module</artifactId>
                 <version>${singular.version}</version>
             </dependency>
 
@@ -671,12 +665,8 @@
                 <groupId>org.opensingular</groupId>
                 <artifactId>singular-requirement-module</artifactId>
                 <version>${singular.version}</version>
-            </dependency>
-
-            <dependency>
-                <groupId>org.opensingular</groupId>
-                <artifactId>singular-requirement-single-app</artifactId>
-                <version>${singular.version}</version>
+                <classifier>tests</classifier>
+                <type>test-jar</type>
             </dependency>
 
             <dependency>
