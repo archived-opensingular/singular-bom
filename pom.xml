@@ -627,7 +627,7 @@
 
             <dependency>
                 <groupId>org.opensingular</groupId>
-                <artifactId>singular-flow-schedule</artifactId>
+                <artifactId>singular-schedule</artifactId>
                 <version>${singular.version}</version>
             </dependency>
 
