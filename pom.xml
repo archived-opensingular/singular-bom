@@ -626,6 +626,18 @@
 
             <dependency>
                 <groupId>com.opensingular</groupId>
+                <artifactId>singular-enterprise-mining</artifactId>
+                <version>${singular.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.opensingular</groupId>
+                <artifactId>singular-enterprise-yfiles</artifactId>
+                <version>${singular.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.opensingular</groupId>
                 <artifactId>singular-enterprise-module</artifactId>
                 <version>${singular.version}</version>
                 <type>war</type>
