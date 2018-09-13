@@ -463,12 +463,6 @@
             </dependency>
 
             <dependency>
-                <groupId>org.jadira.usertype</groupId>
-                <artifactId>usertype.extended</artifactId>
-                <version>4.0.0.GA</version>
-            </dependency>
-
-            <dependency>
                 <groupId>org.jasig.cas</groupId>
                 <artifactId>cas-server-support-ldap</artifactId>
                 <version>${cas.version}</version>
