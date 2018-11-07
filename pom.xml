@@ -293,6 +293,12 @@
             </dependency>
 
             <dependency>
+                <groupId>org.apache.commons</groupId>
+                <artifactId>commons-csv</artifactId>
+                <version>1.5</version>
+            </dependency>
+
+            <dependency>
                 <groupId>org.apache.logging.log4j</groupId>
                 <artifactId>log4j-core</artifactId>
                 <version>${logging.log4j.version}</version>
@@ -615,6 +621,18 @@
             <dependency>
                 <groupId>com.opensingular</groupId>
                 <artifactId>singular-enterprise-connector</artifactId>
+                <version>${singular.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.opensingular</groupId>
+                <artifactId>singular-enterprise-mining</artifactId>
+                <version>${singular.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.opensingular</groupId>
+                <artifactId>singular-enterprise-yfiles</artifactId>
                 <version>${singular.version}</version>
             </dependency>
 
