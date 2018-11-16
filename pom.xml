@@ -7,7 +7,7 @@
     <groupId>org.opensingular</groupId>
     <artifactId>bom</artifactId>
 
-    <version>1.8.0.3-SNAPSHOT</version>
+    <version>1.8.0.3</version>
     <name>[singular-bom]</name>
     <description>Singular Bom</description>
     <url>http://opensingular.org</url>
