@@ -176,7 +176,7 @@
             <dependency>
                 <groupId>de.alpharogroup</groupId>
                 <artifactId>wicket-toastr</artifactId>
-                <version>${wicket.version}</version>
+                <version>${wicket.toastr.version}</version>
                 <exclusions>
                     <exclusion>
                         <groupId>org.slf4j</groupId>
@@ -1036,7 +1036,8 @@
     <properties>
         <spring.version>5.0.8.RELEASE</spring.version>
         <spring.security.version>5.0.7.RELEASE</spring.security.version>
-        <wicket.version>7.3.0</wicket.version>
+        <wicket.version>7.12.0</wicket.version>
+        <wicket.toastr.version>7.8.0</wicket.toastr.version>
         <hibernate.version>5.2.17.Final</hibernate.version>
         <slf4j.version>1.7.12</slf4j.version>
         <singular.version>1.9.1-SNAPSHOT</singular.version>
