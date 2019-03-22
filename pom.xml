@@ -596,6 +596,30 @@
 
             <dependency>
                 <groupId>org.opensingular</groupId>
+                <artifactId>requirement-sei-31-connector</artifactId>
+                <version>${singular.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.opensingular</groupId>
+                <artifactId>requirement-sei-31-extensao-singular</artifactId>
+                <version>${singular.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.opensingular</groupId>
+                <artifactId>requirement-sei-31-features-lib</artifactId>
+                <version>${singular.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.opensingular</groupId>
+                <artifactId>requirement-sip-31-connector</artifactId>
+                <version>${singular.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.opensingular</groupId>
                 <artifactId>singular-app-commons</artifactId>
                 <version>${singular.version}</version>
             </dependency>
