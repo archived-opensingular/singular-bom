@@ -37,10 +37,6 @@
             <name>Vinicius Nunes</name>
             <organization>Singular</organization>
         </developer>
-        <developer>
-            <name>Thais Pereira</name>
-            <organization>Singular</organization>
-        </developer>
     </developers>
 
     <dependencyManagement>
@@ -164,7 +160,7 @@
             <dependency>
                 <groupId>commons-io</groupId>
                 <artifactId>commons-io</artifactId>
-                <version>2.5</version>
+                <version>2.6</version>
             </dependency>
 
             <dependency>
@@ -551,6 +547,12 @@
                 <artifactId>docgen-app</artifactId>
                 <version>${singular.version}</version>
                 <type>war</type>
+            </dependency>
+
+            <dependency>
+                <groupId>org.opensingular</groupId>
+                <artifactId>singular-ui-resources</artifactId>
+                <version>${singular.version}</version>
             </dependency>
 
             <dependency>
