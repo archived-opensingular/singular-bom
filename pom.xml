@@ -1044,7 +1044,7 @@
         <spring.security.version>5.0.7.RELEASE</spring.security.version>
         <wicket.version>7.12.0</wicket.version>
         <wicket.toastr.version>7.8.0</wicket.toastr.version>
-        <hibernate.version>5.2.17.Final</hibernate.version>
+        <hibernate.version>5.4.24.Final</hibernate.version>
         <slf4j.version>1.7.12</slf4j.version>
         <singular.version>1.9.2-SNAPSHOT</singular.version>
         <cas.version>4.0.4</cas.version>
