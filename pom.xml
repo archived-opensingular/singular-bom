@@ -1040,7 +1040,7 @@
     </profiles>
 
     <properties>
-        <spring.version>5.0.8.RELEASE</spring.version>
+        <spring.version>5.3.18</spring.version>
         <spring.security.version>5.0.7.RELEASE</spring.security.version>
         <wicket.version>7.12.0</wicket.version>
         <wicket.toastr.version>7.8.0</wicket.toastr.version>
