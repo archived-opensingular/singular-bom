@@ -1041,7 +1041,7 @@
 
     <properties>
         <spring.version>5.0.8.RELEASE</spring.version>
-        <spring.security.version>5.0.7.RELEASE</spring.security.version>
+        <spring.security.version>5.5.7</spring.security.version>
         <wicket.version>7.12.0</wicket.version>
         <wicket.toastr.version>7.8.0</wicket.toastr.version>
         <hibernate.version>5.2.17.Final</hibernate.version>
